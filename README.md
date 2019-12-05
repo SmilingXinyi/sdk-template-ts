@@ -1,1 +1,1 @@
-# ts-sdk-template
+# SDK-Template (TypeScript)
