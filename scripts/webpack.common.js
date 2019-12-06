@@ -6,19 +6,19 @@
 // webpack conf
 module.exports = {
     entry: {
-        index: "./src/index.ts",
-        "index.min": "./src/index.ts"
+        index: './src/index.ts',
+        'index.min': './src/index.ts'
     },
     module: {
         rules: [
             {
                 test: /\.tsx?$/,
-                use: "ts-loader",
+                use: 'ts-loader',
                 exclude: /node_modules/
             }
         ]
     },
     resolve: {
-        extensions: [".tsx", ".ts", ".js"]
+        extensions: ['.tsx', '.ts', '.js']
     }
 };
