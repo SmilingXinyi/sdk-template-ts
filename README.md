@@ -2,3 +2,6 @@
 
 SDK template for typescript
 
+- tsdoc
+- jest
+- eslint
